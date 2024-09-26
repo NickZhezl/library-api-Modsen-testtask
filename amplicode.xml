@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="library-api-books-service" name="Default">
+        <packages>
+          <package value="dev.earlspilner.books" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="library-api-library-service" name="Default">
+        <packages>
+          <package value="dev.earlspilner.library" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="library-api-loan-service" name="Default">
+        <packages>
+          <package value="dev.earlspilner.loans" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="library-api-users-service" name="Default">
+        <packages>
+          <package value="dev.earlspilner.users" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
